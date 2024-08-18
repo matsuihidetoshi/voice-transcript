@@ -9,7 +9,18 @@
     <div id="setting">
       <h1>Voice Translate</h1>
       <h2>Choose languages and press "Start translation".</h2>
-      <p>The source language can only be selected from the languages ​​of the speakers whose CfPs have been adopted.</p>
+      <h2>Tips</h2>
+      <ul>
+        <li>Speak loudly, clearly and slowly.</li>
+        <li>Speak in a quiet environment.</li>
+        <li>Do not speak too long. Separate the sentences appropriately(The maximum number of characters per sentence is 500 characters, limited by Amazon IVS Chat's constraint).</li>
+      </ul>
+      <h2>Notes</h2>
+      <ul>
+        <li>This page will close after this event.</li>
+        <li>As the source language, you can only select the language spoken by the speaker whose CfP has been adopted.</li>
+        <li>Translation accuracy and response speed are limited to the performance of Amazon Translate.</li>
+      </ul>
       <label for="translate-from">Translate from:</label>
       <select id="translate-from">
         <option value="en,en-US">English</option>
@@ -52,6 +63,12 @@
     </div>
     <div id="translate" style="display: none;">
       <h3>Speak!</h3>
+      <h2>Tips</h2>
+      <ul>
+        <li>Speak loudly, clearly and slowly.</li>
+        <li>Speak in a quiet environment.</li>
+        <li>Do not speak too long. Separate the sentences appropriately(The maximum number of characters per sentence is 500 characters, limited by Amazon IVS Chat's constraint).</li>
+      </ul>
       <button id="restart">Restart</button>
       <hr/>
       <p>What you say will be translated and displayed as shown in the example below.</p>
