@@ -9,6 +9,7 @@
     <div id="setting">
       <h1>Voice Translate</h1>
       <h2>Choose languages and press "Start translation".</h2>
+      <p>The source language can only be selected from the languages ​​of the speakers whose CfPs have been adopted.</p>
       <label for="translate-from">Translate from:</label>
       <select id="translate-from">
         <option value="en,en-US">English</option>
@@ -51,9 +52,14 @@
     </div>
     <div id="translate" style="display: none;">
       <h3>Speak!</h3>
-      <p>translation:</p>
-      <h1 id="translate-display"></h1>
       <button id="restart">Restart</button>
+      <hr/>
+      <p>What you say will be translated and displayed as shown in the example below.</p>
+      <p>The design may be subject to change up until the day of the show.</p>
+      <div id="mock-area">
+        <img src="mock.png" alt="mock" width="100%">
+        <h1 id="translate-display"></h1>
+      </div>
     </div>
   </body>
 </html>
